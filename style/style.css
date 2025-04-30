@@ -7,13 +7,12 @@
   font-family: 'poppins', sans-serif;
   scroll-behavior: smooth;
 }
-
 body {
   min-height: 100vh;
   width: 100%;
   overflow-x: hidden;
+  background-image: url('/images/bgfooter.jpg');
 }
-
 header {
   display: flex;
   justify-content: space-between;
@@ -95,9 +94,17 @@ header ul li a:hover {
   margin-left: auto;
   margin-right: auto;
   position: relative;
+  color: #fff;
+}
+.mediabg{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
 }
 
 .dark {
+  background-image:none;
   background-color: #1F2021;
   color: #fff;
   transition: 0.3s;
@@ -123,7 +130,7 @@ header ul li a:hover {
 
 .left h3 {
   font-size: 50px;
-  color: #1f67db;
+  /* color: #1f67db; */
   letter-spacing: 1px;
 }
 
@@ -143,7 +150,7 @@ header ul li a:hover {
   transition: 0.5s;
 }
 
-.left button a {
+.left a button {
   text-decoration: none;
   color: white;
   transition: 0.5s;
@@ -164,12 +171,9 @@ header ul li a:hover {
   z-index: -2;
   right: 0;
   font-size: 150px;
-  color: #1f67db;
+  /* color: #1f67db; */
   opacity: 0.3
 }
-
-
-
 #services {
   width: 100%;
   margin-left: auto;
@@ -184,7 +188,8 @@ header ul li a:hover {
 
 .title {
   text-transform: uppercase;
-  color: #1f67db;
+  /* color: #1f67db; */
+  color: whitesmoke;
   letter-spacing: 1px;
   font-size: 45px;
 }
@@ -322,11 +327,11 @@ header ul li a:hover {
 }
 
 .htmlbar {
-  color: #ED6915
+  color: #ED6915;
 }
 
 .cssbar {
-  color: #4269F5
+  color: #4269F5;
 }
 
 .jsbar {
@@ -352,21 +357,21 @@ header ul li a:hover {
 }
 
 .activehtml {
-  width: 350px;
+  width: 92%;
   background-color: #ED6915;
 }
 
 .activecss {
-  width: 250px;
+  width: 90%;
   background-color: #4269F5;
 }
 
 .activejs {
-  width: 130px;
+  width: 50%;
   background-color: #D5D649;
 }
 .activepy {
-  width: 150px;
+  width: 55%;
   background-color: #11fd11a8;
 }
 
@@ -617,27 +622,6 @@ header ul li a:hover {
     font-size: 60px;
   }
 
-  .circle1 {
-    height: 70px;
-    width: 70px;
-    border: solid 10px #1f67db;
-    left: -10px;
-    ;
-    transform: translateY(-45px);
-  }
-
-  .circle2 {
-    height: 70px;
-    width: 70px;
-    border: dashed 10px #1f67db;
-    right: 0;
-    transform: translateY(130px)
-  }
-
-  .circle3 {
-    display: none;
-  }
-
   #services {
     padding: 50px 100px;
   }
@@ -697,33 +681,8 @@ header ul li a:hover {
   .bar {
     width: 270px;
   }
-
-  .activehtml {
-    width: 240px;
-  }
-
-  .activecss {
-    width: 180px;
-  }
-
-  .activejs {
-    width: 100px;
-  }
-
   .bgskill {
     font-size: 50px;
-  }
-
-  .circle4 {
-    display: none;
-  }
-
-  .circle5 {
-    height: 70px;
-    width: 70px;
-    border: dashed 10px #1f67db;
-    top: 40px;
-    transform: translateX(100px)
   }
 
   #contact {
