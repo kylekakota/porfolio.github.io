@@ -338,7 +338,7 @@ header ul li a:hover {
   color: #D5D649;
 }
 .pybar {
-  color:lch(87.2% 117.47 136.22 / 0.659);
+  color:black;
 }
 .bar {
   background-color: #fff;
@@ -372,7 +372,7 @@ header ul li a:hover {
 }
 .activepy {
   width: 55%;
-  background-color: #11fd11a8;
+  background-color:black;
 }
 
 .bgskill {
